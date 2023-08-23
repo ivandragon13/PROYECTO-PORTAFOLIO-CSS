@@ -1,0 +1,66 @@
+.titulo .titulo__titulo{
+    color: rgb(255, 0, 0);
+}
+.proyectos .proyectos__proyectos{
+    color: rgb(255, 0, 0);
+}
+.sobremi .sobremi__sobremi{
+    color: rgb(255, 0, 0);
+}
+.contacto .contacto__contacto{
+    color: rgb(255, 0, 0);
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+p {
+    color: #ffffff; 
+}
+h2 {
+    color: #ff0000; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+body{
+    text-align: center;
+    animation-duration: 3s;
+    animation-name: inicio;
+}
+@keyframes inicio {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+section {
+    text-align: center;
+    margin: 20px 0;
+}
+.calculadora{
+    display: flex;
+    flex-direction: column;
+}
+.project-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:20px;
+}
+.project-image{
+ 
+  border: 5px white solid;
+  border-radius: 10%;
+
+}
